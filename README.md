@@ -30,15 +30,15 @@ DFA - Signal fractal scaling exponent
 spread1 , spread2 , PPE - Three nonlinear measures of fundamental frequency variation
 
 <h2>steps to implement</h2>
-<b>EDA :</b><p>checking the description of the data and data types of features,checking any missing value(not found) and found data imbalance between healthy and non-effected instances </p>
-<b>data balancing : </b><p>To balance data imbalance here SMOTE enn (undersampling technique ) is used</p>
-<b>Feature selection :</b><p> Select k-best and using the chi-square test is used and select the top 20 features</p>
+<b>EDA:</b><p>checking the description of the data and data types of features, checking any missing value(not found), and found data imbalance between healthy and non-effected instances </p>
+<b>data balancing: </b><p>To balance data imbalance here SMOTE enn (undersampling technique ) is used</p>
+<b>Feature selection:</b><p> Select k-best and using the chi-square test is used and select the top 20 features</p>
 <b>test-train-split : </b><p>data is divided in 80:20 ratio</p>
 <b>hyperparameter tuning :</b><p>tuned parameters using Randomized search</p>
 <b>Classifiers :</b><li><i>K-Nearest Neighbour</i> </li>  
 <li>  <i>Random Forest classifier</i></li>
 <li> <i>Decision Tree classifier</i></li> 
-<b>Metrics :</b><p>5 metrics are used to predict best model - Accuracy Score , Precision , Recall , F1 Score , time taken to train and predict</p>
+<b>Metrics:</b><p>5 metrics are used to predict the best model - Accuracy Score, Precision , Recall, F1 Score , time taken to train and predict</p>
 
 <b>Results : </b>
 <i>Random Forest Classifier showed best results by giving 100% in all metrics </i>
